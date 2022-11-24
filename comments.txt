@@ -1,0 +1,9 @@
+#this is comment
+blabblablabla
+"""this is
+multi line 
+comment
+"""
+#this is comment2
+#this is comment3
+blabblablabla

@@ -1,0 +1,14 @@
+cd budapest/january/
+git rm --cached week01.csv
+
+mv week01.csv E:\Greenfox\weather-station/prague/january
+cd..
+cd february\
+
+
+grep "-" week01.csv > E:\Greenfox\weather-station\budapest\freezin_days.csv
+
+cd E:\Greenfox\weather-station\prague\february\
+rename week01.csv week02.csv
+
+echo 2020.02.20,-1 °C,7 °C,76% > week02.csv
